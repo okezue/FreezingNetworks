@@ -1,0 +1,14 @@
+/.lake
+/build
+*.olean
+*.ilean
+*.trace
+*.hash
+*.aux
+*.log
+*.bbl
+*.blg
+*.spl
+*.out
+*.synctex.gz
+.DS_Store

@@ -1,0 +1,5 @@
+# Constraint-cycle characterizations and a disjunction frontier for asynchronous reachability in freezing automata networks
+
+A freezing automata network is a finite-state graph dynamical system in which each vertex evolves monotonically along a fixed order on the alphabet. We study when a target configuration is asynchronously reachable from a source. For conjunctive interval unit-increment freezing networks (CI-UIFNs), where each vertex increments by one when a conjunction of interval constraints on neighbors holds, we build a weighted event-constraint digraph and prove that reachability holds if and only if the digraph has no positive directed cycle. This gives a polynomial-time decision algorithm via strongly connected components and yields optimal-round schedules via Bellman–Ford.
+
+The disjunction frontier is sharp: allowing two-term disjunctive normal forms of width two already makes reachability NP-complete for Boolean freezing networks, by a cyclic-chain reduction from 3-SAT. Tractability is recovered by parameterization in the number of disjunctive events. The formalization comprises ~4,100 lines of Lean 4 with zero sorries.
